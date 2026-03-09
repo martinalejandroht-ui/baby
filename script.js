@@ -18,14 +18,14 @@ document.addEventListener('DOMContentLoaded', () => {
     // Función global que llama YouTube API cuando está lista
     window.onYouTubeIframeAPIReady = function() {
         player = new YT.Player('youtube-audio', {
-            height: '0',
-            width: '0',
-            videoId: '0aUav1lz3hM', // "Baby Mine (Instrumental)" o similar
+            height: '10',
+            width: '10',
+            videoId: 'GQIk6DMcxWo', // Here Comes The Sun (Piano Instrumental)
             playerVars: {
                 'autoplay': 0,
                 'controls': 0,
                 'loop': 1,
-                'playlist': '0aUav1lz3hM'
+                'playlist': 'GQIk6DMcxWo'
             },
             events: {
                 'onReady': onPlayerReady
